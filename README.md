@@ -34,16 +34,8 @@
 <h3 align="center">Combining 2D Texture and 3D Geometry Features for Reliable Iris Presentation Attack Detection using Light Field Focal Stack</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    Iris presentation attack detection (PAD) is still an unsolved problem mainly due to the various spoof attack strategies and poor generalization on unseen attackers. In this paper, we leverage the merits of both light field (LF) imaging and deep learning (DL) to combine 2D texture and 3D geometry features for iris liveness detection. By exploring off-the-shelf deep features of planaroriented and sequence-oriented deep neural networks (DNNs) on the rendered focal stack, the proposed framework excavates the differences in 3D geometric structure and 2D spatial texture between bona fide and spoofing irises captured by LF cameras. A
+group of pre-trained DL models are adopted as feature extractor and the parameters of SVM classifiers are optimized on a limited number of samples. Moreover, two-branch feature fusion further strengthens the framework’s robustness and reliability against severe motion blur, noise, and other degradation factors. The results of comparative experiments indicate that variants of the proposed framework significantly surpasses the PAD methods that take 2D planar images or LF focal stack as input, even recent state-of-the-art (SOTA) methods fined-tuned on the adopted database. Presentation attacks, including printed papers, printed photos, and electronic displays, can be accurately detected without fine-tuning a bulky CNN. In addition, ablation studies validate the effectiveness of fusing geometric structure and spatial texture features. The results of multi-class attack detection experiment also verify the good generalization ability of the proposed framework on unseen presentation attacks.
   </p>
 </div>
 
